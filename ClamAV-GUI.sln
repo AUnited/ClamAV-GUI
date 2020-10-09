@@ -1,20 +1,37 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 9.00
-# Visual Studio 2005
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ClamAV-GUI", "ClamAV-GUI.vcproj", "{E9E295BE-05E7-4794-BAC9-55430A2EB3F5}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ClamAV-GUI", "ClamAV-GUI.vcxproj", "{E9E295BE-05E7-4794-BAC9-55430A2EB3F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
 		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|ARM = Release|ARM
 		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E9E295BE-05E7-4794-BAC9-55430A2EB3F5}.Debug|ARM.ActiveCfg = Debug|ARM
+		{E9E295BE-05E7-4794-BAC9-55430A2EB3F5}.Debug|ARM.Build.0 = Debug|ARM
 		{E9E295BE-05E7-4794-BAC9-55430A2EB3F5}.Debug|Win32.ActiveCfg = Debug|Win32
 		{E9E295BE-05E7-4794-BAC9-55430A2EB3F5}.Debug|Win32.Build.0 = Debug|Win32
+		{E9E295BE-05E7-4794-BAC9-55430A2EB3F5}.Debug|x64.ActiveCfg = Debug|x64
+		{E9E295BE-05E7-4794-BAC9-55430A2EB3F5}.Debug|x64.Build.0 = Debug|x64
+		{E9E295BE-05E7-4794-BAC9-55430A2EB3F5}.Release|ARM.ActiveCfg = Release|ARM
+		{E9E295BE-05E7-4794-BAC9-55430A2EB3F5}.Release|ARM.Build.0 = Release|ARM
 		{E9E295BE-05E7-4794-BAC9-55430A2EB3F5}.Release|Win32.ActiveCfg = Release|Win32
 		{E9E295BE-05E7-4794-BAC9-55430A2EB3F5}.Release|Win32.Build.0 = Release|Win32
+		{E9E295BE-05E7-4794-BAC9-55430A2EB3F5}.Release|x64.ActiveCfg = Release|x64
+		{E9E295BE-05E7-4794-BAC9-55430A2EB3F5}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F2A8B156-40CB-4E8D-8919-A378FD7A43C0}
 	EndGlobalSection
 EndGlobal
