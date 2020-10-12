@@ -1,5 +1,9 @@
 Release
 Debug
+x86
+x64
 *.ncb
 *.suo
 *.vcproj.*
+.vs
+Thumbs.db
